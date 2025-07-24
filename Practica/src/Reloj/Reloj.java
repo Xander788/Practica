@@ -10,6 +10,11 @@ package Reloj;
  */
 public class Reloj  extends Tiempo implements Configurable{
 
+    public Reloj() {
+        super();
+        this.activo=true;
+    }
+
     @Override
     public void configurar(int h, int m, int s) {
         this.hora=h;
