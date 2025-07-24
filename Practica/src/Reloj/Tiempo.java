@@ -36,6 +36,7 @@ public abstract class Tiempo {
         }
             
     }
+    
     public String toString(){
         String h,m,s;
         h=String.valueOf(hora);
