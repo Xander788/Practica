@@ -12,11 +12,13 @@ public abstract class Tiempo {
     protected int hora;
     protected int minutos;
     protected int segundos;
+    protected boolean activo;
 
     public Tiempo() {
         this.hora = 0;
         this.minutos = 0;
         this.segundos = 0;
+        this.activo=false;
     }
     
     public void correr() {
